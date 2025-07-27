@@ -74,7 +74,7 @@ int main(int argc, char *argv[]){
 
 	FILE *f = fopen(passwd_file, "r");
 	if(!f){
-		perror("error opening passwd file");
+		printf("lifeblood: no such file\n");
 		return 1;
 	}
 
